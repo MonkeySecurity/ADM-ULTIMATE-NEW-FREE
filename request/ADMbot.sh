@@ -269,7 +269,7 @@ local bot_retorno="$LINE\n"
 	     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
 							--text "$(echo -e $bot_retorno)" \
 							--parse_mode markdown
-	return 0	
+	return 0
 }
 info_fun () {
 if [[ ! -e "${USRdatabase}" ]]; then
@@ -292,7 +292,7 @@ local bot_retorno="$LINE\n"
              sen=$(cat ${USRdatabase}|grep -w "$user"|cut -d '|' -f2)
              [[ -z $sen ]] && sen="???"
              DateExp="$(cat ${USRdatabase}|grep -w "${user}"|cut -d'|' -f3)"
-             if [[ ! -z $DateExp ]]; then             
+             if [[ ! -z $DateExp ]]; then
              DataSec=$(date +%s --date="$DateExp")
              [[ "$VPSsec" -gt "$DataSec" ]] && EXPTIME="${red}[Exp]" || EXPTIME="${gren}[$(($(($DataSec - $VPSsec)) / 86400))]"
              else
@@ -300,7 +300,7 @@ local bot_retorno="$LINE\n"
              fi
              limit=$(cat ${USRdatabase}|grep -w "$user"|cut -d '|' -f4)
              [[ -z $limit ]] && limit="???"
-             bot_retorno="$LINE\n"       
+             bot_retorno="$LINE\n"
              bot_retorno+="$(fun_trans "Usuario"): $user\n"
              bot_retorno+="$(fun_trans "Senha"): $sen\n"
              bot_retorno+="$(fun_trans "Dias Restantes"): $EXPTIME\n"
@@ -404,7 +404,7 @@ local bot_retorno="$LINE\n"
      error_fun 3 && return 0
      elif [[ "$(echo ${usuarios_ativos[@]}|grep -w "$1")" ]]; then
      error_fun 14 && return 0
-     fi    
+     fi
      if [[ -z $2 ]]; then
      error_fun 4 && return 0
      elif [[ "${#2}" -lt "6" ]]; then
@@ -653,7 +653,7 @@ local bot_retorno="$LINE\n"
 		  unset bot_retorno
 return 0
 }
-valor1="$1" #Entrada Host 
+valor1="$1" #Entrada Host
 valor2="127.0.0.1" #Entrada IP
 valor3="$2" #Metodo Requisicao
 valor4="$3" #Metodo Conexao
@@ -696,7 +696,7 @@ local bot_retorno="$LINE\n"
 local bot_retorno2
           ShellBot.sendDocument --chat_id ${message_chat_id[$id]} \
                              --document @$HOME/Payloads.txt
-return 0                           
+return 0
 else
 local bot_retorno="$LINE\n"
           bot_retorno+="$(fun_trans "PAYLOADS NAO GERADAS")\n"

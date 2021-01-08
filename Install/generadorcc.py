@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+ #!/usr/bin/env python
 #-*- coding: iso-8859-1 -*-.
 import getopt
 import time
-import os 
+import os
 import sys
 import datetime
 from random import randint
@@ -96,7 +96,9 @@ def cardLuhnChecksumIsValid(card_number):
 
     return ( (sum % 10) == 0 )
 
-#GENERA UNA BASE DE BIN XXXXXXXXXXXXXXXX
+#GENERAMOS NUEVA BASE BIN XXXXXXXXXXXXXXXX
+#BIN 532632XXXXXXXXXX MASTERCARD
+#BIN 423623XXXXXXXXXX VISA
 def ccgen(bin_format):
     out_cc = ""
     if len(bin_format) == 16:

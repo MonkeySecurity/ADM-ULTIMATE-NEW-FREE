@@ -1,11 +1,11 @@
-﻿# NEW-ULTIMATE r6.3.4 (FREE)
+﻿#ADM - ULTIMATE - PRO by Angel (+51 993 095 725)
 # UPDATE 21/12/2020
 
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/ADM-ULTIMATE-NEW-FREE/blob/master/Imagenes/ADM_ULTIMATE_NEW_FREE.jpg)
 
 ```
 * SI TIENES PROBLEMAS DE TRADUCCION DEBES CAMBIAR A IDIOMA PORTUGUES MENU 7 OPCION 6
-* O EJECUTAR EL COMANDO SIGUIENTE: 
+* O EJECUTAR EL COMANDO SIGUIENTE:
 * echo "pt" > /etc/newadm/idioma && chmod +x /etc/newadm/idioma
 ```
 
@@ -36,14 +36,14 @@ NEW-ULTIMATE (las dependencias faltantes se instalarán automáticamente)
 
 ## :scroll: Registro de cambios
 ```
-NEW-ULTIMATE Recibe actualizaciones periodicamente con nuevas características, mejoras 
-y correcciones de errores. Asegúrese de no 
+NEW-ULTIMATE Recibe actualizaciones periodicamente con nuevas características, mejoras
+y correcciones de errores. Asegúrese de no
 realizar cambios al scripts o borrar algun archivo.
 
 ```
 
 ```
-VERSION LIBERADA DEL DESARROLLADOR:
+VERSIÓN LANZADA DE DESARROLLADOR:
 
 apt-get update -y; apt-get upgrade -y; wget https://www.dropbox.com/s/qhftefty46hz51x/newfreeinstal?dl=0 && bash new*
 
@@ -65,10 +65,10 @@ Creditos: @E8th4ver en Telegram
 ```
 
 ```
-* SIN MINERIA! 
-* SIN KEYS! 
-* VERSION GRATUITA 
-* SIN VIRUS TROJANO (BOTNET) 
+* SIN MINERIA!
+* SIN KEYS!
+* VERSION GRATUITA
+* SIN VIRUS TROJANO (BOTNET)
 * ARCHIVOS LIBERADOS (DECENCRIPTADOS)
 ```
 
